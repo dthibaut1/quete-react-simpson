@@ -1,0 +1,26 @@
+.Quote {
+  display: flex;
+  justify-content: center;
+}
+
+.QuoteCard {
+    display: flex;
+    padding: 1.25em;
+    width: 400px;
+    border: 1px solid #f8f8f8c0;
+    border-radius: 2px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    font-size: 1.2em;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .QuoteCard img {
+    max-width: 120px;
+    margin-right: 1.5rem;
+  }
+  
+  .QuoteCard cite {
+    margin-left: 50px;
+  }
+  
